@@ -1,0 +1,109 @@
+
+button {
+    background-color: #6e582d;
+    border-color: orange;
+    border-style: solid;
+    color: orange;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: inherit;
+
+
+}
+button:hover {
+    background-color: #ffeb3b;
+    border-color: #795548;
+    border-style: solid;
+    color: #795548;
+    border-radius: 10px;
+    padding: 10px 15px;
+}    
+
+article {
+    width: 500px;
+    overflow: hidden;
+}
+
+article:hover 
+{width: 500px;
+    overflow: visible;
+}
+
+p{
+    width:800px;
+}
+
+section {padding-top: 30px;}
+
+
+
+.naranja{
+    background-color: orange;
+}
+
+.uno, .dos, .tres{
+    width: 100px;
+    height: 100px;
+    /*background-color: blue;*/
+   
+    }
+
+.uno{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color:blue ;
+    z-index: 3;
+}
+.dos{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color:green ;
+    z-index: 2;
+}
+.tres{
+    position: relative;
+    top: 10px;
+    left: 60px;
+    background-color:red ;
+    z-index: 1;
+}
+
+div.blanco{
+    width: 90%;
+    height: auto;
+    
+}
+.a, .b, .c {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    display: inline;
+
+    }
+.a{
+    background: red;
+    margin-bottom: 10px;
+}
+.b{
+    background: green;
+    margin-bottom: 10px;
+}
+.c{
+    background: orange;
+}
+@media screen and (max-width: 760px){
+    .a, .b, .c {
+    width: 80%;
+    height: 100px;
+    display: block;
+    }
+}
+
+.relleno{
+    padding:80px;
+}
+
+.test{width: 50%; height:auto; padding:100px; background-color: red;box-shadow: 10px 5px 20px grey}
+.test:hover{width: 50%; height:auto; padding:100px; background-color: blue;
